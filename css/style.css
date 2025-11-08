@@ -425,8 +425,8 @@ body {
 
 .icon-ul-footer {
     display: flex;
-    align-items: center;
     gap: 16px;
+
 }
 
 .footer-p {
@@ -474,11 +474,22 @@ body {
 }
 
 .footer .icon-li {
-    width: 40px;
-    height: 40px;
+    padding: auto;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer .icon-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill: #F4F4FD;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
